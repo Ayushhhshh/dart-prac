@@ -12,10 +12,21 @@
   // }
 // }
 
+// void main(){
+//   int i = 1;
+//   do{
+//     print("2 X $i = ${2 * i}");
+//     i++;
+//   }while(i<=10);
+// }
+
 void main(){
-  int i = 1;
-  do{
-    print("2 X $i = ${2 * i}");
-    i++;
-  }while(i<=10);
+  String value = "Ayush";
+  for (int i=0;i<value.length;i++){
+    if (i == 3 || i == 4){
+      continue;
+    }
+    print(value[i]);
+    
+  }
 }
