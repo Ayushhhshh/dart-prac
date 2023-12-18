@@ -27,6 +27,5 @@ void main(){
       continue;
     }
     print(value[i]);
-    
   }
 }
